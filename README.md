@@ -1,2 +1,0 @@
-# Vip
-#Dilarang-Keras-Merecode
