@@ -50,8 +50,7 @@ echo $me"["$ku"1"$me"]" $pu"Belum Punya Target";
 echo $me"[============"$pu"=============]"
 echo $me"["$ku"2"$me"]" $pu"Sudah Punya Target";
 echo ""
-echo    "╭─PILIH:" |lolcat
-read -p "╰─#" pil;
+echo    "PILIH:" |lolcat
 
 case $pil in
 1)echo ""
