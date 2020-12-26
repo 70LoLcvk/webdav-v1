@@ -47,7 +47,6 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo $me"["$ku"1"$me"]" $pu"Belum Punya Target";
-echo $me"[============"$pu"=============]"
 echo $me"["$ku"2"$me"]" $pu"Sudah Punya Target";
 echo ""
 echo    "ketik yang ada di atas :)" |lolcat
