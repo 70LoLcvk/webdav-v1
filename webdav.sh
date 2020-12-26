@@ -27,7 +27,7 @@ echo $ku "*note:"
 echo""
 echo $i"Script Deface Harus Di letakan di Sdcard"
 echo $i"Dan Jangan Di Masukan Ke Folder Apapun"
-echo -n $ku"Nama Script Deface?>" 
+echo -n $ku"Nama Script Deface?:" 
 read sc
 echo ""
 ###################################################
@@ -38,7 +38,7 @@ ctrl_c() {
 clear
 echo $"CTRL+C Detected, Trying To Exit" | lolcat
 echo ""
-echo $" Byee,see you Ngentod " | lolcat
+echo $" Kembali Telah Berhasil [√]" | lolcat
 sleep 1 
 exit
 }
@@ -46,8 +46,8 @@ exit
 lagi=1
 while [ $lagi -lt 6 ];
 do
-echo $me"["$ku"1"$me"]" $pu"Belum Punya Target";
-echo $me"["$ku"2"$me"]" $pu"Sudah Punya Target";
+echo $me"["$pu"1"$me"]" $me"Belum Punya Target";
+echo $me"["$pu"2"$me"]" $i"Sudah Punya Target";
 echo ""
 echo    "ketik yang ada di atas :)" |lolcat
 read -p "PILIH:" pil;
