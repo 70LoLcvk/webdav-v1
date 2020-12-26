@@ -50,8 +50,8 @@ echo $me"["$ku"1"$me"]" $pu"Belum Punya Target";
 echo $me"[============"$pu"=============]"
 echo $me"["$ku"2"$me"]" $pu"Sudah Punya Target";
 echo ""
-echo    "PILIH" |lolcat
-read   -p ketik:
+echo    "ketik yang ada di atas :)" |lolcat
+read -p "PILIH:" pil;
 case $pil in
 1)echo ""
 echo $pu"List Target:"
